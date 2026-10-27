@@ -90,3 +90,11 @@ entry_fis.pack()
 tk.Label(root, text="Nilai Inggris:").pack()
 entry_ing = tk.Entry(root)
 entry_ing.pack()
+
+btn_submit = tk.Button(root, text="Prediksi Fakultas", command=submit_nilai)
+btn_submit.pack(pady=10)
+
+btn_submit.bind("<Enter>", on_enter)
+btn_submit.bind("<Leave>", on_leave)
+
+root.mainloop()
