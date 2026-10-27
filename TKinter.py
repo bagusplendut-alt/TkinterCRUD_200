@@ -58,3 +58,9 @@ def submit_nilai():
 
     messagebox.showinfo("Hasil Prediksi", f"Prediksi Fakultas: {hasil_prediksi}")
 
+    entry_nama.delete(0, tk.END)
+    entry_bio.delete(0, tk.END)
+    entry_fis.delete(0, tk.END)
+    entry_ing.delete(0, tk.END)
+
+
