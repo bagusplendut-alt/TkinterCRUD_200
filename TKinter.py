@@ -74,3 +74,19 @@ def on_leave(e):
 # window
 root = tk.Tk()
 root.title("Prediksi Fakultas")
+
+tk.Label(root, text="Nama Siswa:").pack()
+entry_nama = tk.Entry(root)
+entry_nama.pack()
+
+tk.Label(root, text="Nilai Biologi:").pack()
+entry_bio = tk.Entry(root)
+entry_bio.pack()
+
+tk.Label(root, text="Nilai Fisika:").pack()
+entry_fis = tk.Entry(root)
+entry_fis.pack()
+
+tk.Label(root, text="Nilai Inggris:").pack()
+entry_ing = tk.Entry(root)
+entry_ing.pack()
