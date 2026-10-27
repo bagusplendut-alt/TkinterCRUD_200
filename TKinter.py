@@ -70,3 +70,7 @@ def on_enter(e):
 def on_leave(e):
     btn_submit["bg"] = "#44475a"
     btn_submit["fg"] = "black"
+
+# window
+root = tk.Tk()
+root.title("Prediksi Fakultas")
