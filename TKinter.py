@@ -45,4 +45,5 @@ def submit_nilai():
         messagebox.showerror("Error", "Nama siswa tidak boleh kosong!")
         return
     
+    hasil_prediksi = prediksi_fakultas(bio, fis, ing)
     
